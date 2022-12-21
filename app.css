@@ -1,0 +1,604 @@
+body {
+  margin: 0;
+  background-image: url("https://brianwilkins.me/wp-content/uploads/2020/06/brian_duotone.png");
+  background-size: cover;
+  background-position: 0 -80px;
+  background-attachment: fixed;
+}
+.first-section {
+  height: 100vh;
+  padding: 2% 10% 0 10%;
+}
+nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-family: Montserrat, sans-serif;
+}
+.logo {
+  font-weight: 600;
+  font-size: 25px;
+}
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  width: 60%;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  align-items: center;
+}
+.container {
+  height: 30px;
+}
+.movement {
+  background-color: transparent;
+  height: 2px;
+  margin-top: 10px;
+  margin-left: 45%;
+  margin-right: 45%;
+  transition: all 1s;
+}
+.container:hover .movement {
+  background-color: white;
+  margin-left: 0;
+  margin-right: 0;
+}
+.title {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 25%;
+  font-family: "Poppins", sans-serif;
+  line-height: 68px;
+}
+.second-section {
+  background-color: #f1f2f2;
+  margin: 0;
+  padding: 10% 10% 5% 10%;
+  font-family: "Roboto", sans-serif;
+}
+h4 {
+  margin: 0;
+  font-size: 34px;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 50px;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  color: #383838;
+}
+.look {
+  padding-bottom: 20px;
+}
+.lol {
+  color: red;
+  font-size: 30px;
+  padding-right: 10px;
+}
+.lot {
+  color: rgba(119, 119, 119, 1);
+}
+.lot:hover {
+  color: #383838;
+}
+.email-tag {
+  padding-bottom: 20px;
+  color: #ec1823;
+  font-size: 36px;
+}
+.social-media {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  color: rgba(119, 119, 119, 1);
+}
+.social-media span {
+  height: 25px;
+}
+.social {
+  height: 25px;
+}
+.move {
+  background-color: transparent;
+  height: 2px;
+  margin-top: 2px;
+  margin-left: 1%;
+  margin-right: 45%;
+  transition: all 1s;
+}
+.social:hover .move {
+  background-color: red;
+  margin-left: 0;
+  margin-right: 0;
+}
+.third-section {
+  background-color: white;
+  /* padding: 10% 7% 5% 7%; */
+  padding: 10% 10% 5% 10%;
+}
+.loom {
+  padding-bottom: 20px;
+}
+.lom {
+  color: red;
+  font-size: 30px;
+  padding-right: 10px;
+}
+.loom {
+  color: rgba(119, 119, 119, 1);
+}
+.loom:hover {
+  color: #383838;
+}
+.product-items {
+  list-style-type: none;
+  width: 50%;
+  height: 50px;
+  margin: 10px auto 0 auto;
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.product-items > span {
+  display: inline-block;
+  min-width: 100px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.all:hover {
+  border: 1px solid;
+}
+.image {
+  text-align: center;
+}
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh,
+.eighth,
+.nineth {
+  margin: 20px;
+  width: 25%;
+  height: 270px;
+  background-color: white;
+  display: inline-block;
+}
+.first {
+  background-image: url("https://brianwilkins.me/wp-content/uploads/2022/02/project_loop_4_cover-650x650.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.inner {
+  opacity: 0;
+  background-color: red;
+  height: 100%;
+}
+.inner:hover {
+  opacity: 0.8;
+}
+
+.inner-inner {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  top: 100px;
+  padding: 15px;
+  color: white;
+  border: 2px solid white;
+}
+.inner-inner-third {
+  padding: 5px;
+}
+.inner-inner-fourth {
+  padding: 5px;
+}
+.inner-inner-nineth {
+  width: 25%;
+}
+.responsive {
+  position: relative;
+  top: 120px;
+  color: white;
+}
+
+.second {
+  background-image: url("https://brianwilkins.me/wp-content/uploads/2021/05/project_staples_connect_cover-650x650.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.third {
+  background-image: url("https://brianwilkins.me/wp-content/uploads/2021/05/project_staples_connect_cover-650x650.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.fourth {
+  background-image: url("https://brianwilkins.me/wp-content/uploads/2019/11/project_black_friday_cover-650x650.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.fifth {
+  background-image: url("https://brianwilkins.me/wp-content/uploads/2019/06/project_studio_cover_2-650x650.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.sixth {
+  background-image: url("https://brianwilkins.me/wp-content/uploads/2019/06/project_epson_cover-650x650.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.seventh {
+  background-image: url("https://brianwilkins.me/wp-content/uploads/2019/06/project_monitors_cover-650x650.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.eighth {
+  background-image: url("https://brianwilkins.me/wp-content/uploads/2020/06/project_nxt_cover-650x650.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.nineth {
+  background-image: url("https://brianwilkins.me/wp-content/uploads/2019/06/project_perk_cover-650x650.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.fourth-section {
+  background-color: #f1f2f2;
+  padding: 10% 10% 5% 10%;
+}
+.lovely {
+  padding-bottom: 20px;
+}
+.lovelys {
+  color: red;
+  font-size: 30px;
+  padding-right: 10px;
+}
+.lovelies {
+  color: rgba(119, 119, 119, 1);
+}
+.lovelies:hover {
+  color: black;
+}
+.two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.one {
+  margin: 20px;
+  width: 28%;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fa-brands,
+.fa-solid,
+.fa-sharp,
+.fa-thin,
+.fa-regular {
+  font-size: 70px;
+  color: red;
+}
+.use {
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+.fifth-section {
+  background-color: rgb(22, 21, 21);
+  padding: 10% 10% 5% 10%;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+}
+.work {
+  padding-bottom: 25px;
+}
+.works {
+  color: #ec1823;
+  font-size: 50px;
+}
+.working {
+  padding-bottom: 25px;
+}
+.workers {
+  color: rgb(251, 189, 192);
+  letter-spacing: 2px;
+}
+.words {
+  color: white;
+  font-weight: 100;
+}
+.inner-hover {
+  display: flex;
+  font-size: 20px;
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+}
+.pad-right {
+  width: 400px;
+}
+.hover-one {
+  border-bottom: 1px solid rgb(37, 37, 38);
+}
+.hover-one:hover {
+  background-color: rgb(37, 37, 38);
+}
+.all-box {
+  display: flex;
+}
+.first-box,
+.second-box,
+.third-box {
+  border: 1px solid transparent;
+  margin-top: 50px;
+  width: 40%;
+  height: 500px;
+  color: white;
+  font-size: 18px;
+  font-weight: 1px;
+}
+.info-skills {
+  color: rgb(110, 110, 110);
+}
+.photo-words {
+  line-height: 30px;
+}
+.heads {
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+.info-skills > p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.seventh-section {
+  background-color: rgb(234, 30, 66);
+  padding: 10% 10% 5% 10%;
+  height: 600px;
+}
+.last {
+  padding-bottom: 20px;
+}
+.lasts {
+  color: white;
+  font-size: 30px;
+  padding-right: 10px;
+}
+.latest {
+  color: rgb(251, 189, 192);
+  letter-spacing: 2px;
+}
+.latest:hover {
+  color: white;
+}
+.white {
+  color: white;
+}
+.name-email {
+  background-color: rgb(171, 22, 48);
+  padding: 10px;
+  padding-left: 15px;
+  width: 30%;
+  border: rgb(171, 22, 48);
+  margin-bottom: 30px;
+  margin-right: 15px;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.message-input {
+  background-color: rgb(171, 22, 48);
+  border: rgb(171, 22, 48);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  outline: none;
+  color: white;
+  padding: 10px;
+}
+::placeholder {
+  color: white;
+}
+.submit {
+  margin-top: 25px;
+  text-align: center;
+  width: 575px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50px;
+  border: rgb(171, 22, 48);
+}
+.form-social {
+  display: flex;
+}
+.white-form {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  color: rgb(250, 204, 211);
+}
+.white-form span {
+  height: 25px;
+}
+.form-social-white {
+  height: 25px;
+}
+.moves {
+  background-color: transparent;
+  height: 2px;
+  width: 60px;
+  margin-top: 2px;
+  margin-left: 1%;
+  margin-right: 45%;
+  transition: all 1s;
+}
+.movess {
+  width: 80px;
+}
+
+.form-social-white:hover .moves {
+  background-color: white;
+  margin-left: 0;
+  margin-right: 0;
+}
+.box {
+  background-color: rgb(234, 29, 45);
+  color: blue;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  padding-top: 12px;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+}
+.fa-angle-up {
+  color: white;
+  font-size: 10px;
+}
+@media (max-width: 425px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .title {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 50%;
+  }
+  .message-input {
+    width: 70%;
+    height: 100px;
+  }
+  .social-media {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: unset;
+  }
+  .social {
+    width: 100px;
+  }
+  .form-social {
+    flex-direction: column;
+  }
+  .submit {
+    width: 90%;
+  }
+  .all-box {
+    flex-direction: column;
+  }
+  .inner-hover {
+    flex-direction: column;
+  }
+  .box {
+    display: relative;
+  }
+  .nav-items {
+    display: none;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 30px;
+    padding-right: 35%;
+  }
+  .email-tag {
+    font-size: 1em;
+  }
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fifth,
+  .sixth,
+  .seventh,
+  .eighth,
+  .nineth {
+    display: block;
+    width: 50%;
+    height: 170px;
+    margin: auto;
+  }
+  .two {
+    flex-direction: column;
+    align-items: center;
+  }
+  .one {
+    width: 100%;
+    height: 200px;
+  }
+  .form-social-white {
+    width: 100px;
+  }
+  .white-form {
+    width: 100%;
+    justify-content: unset;
+    flex-wrap: wrap;
+  }
+  .first-box,
+  .second-box,
+  .third-box {
+    width: 80%;
+  }
+  .product-items {
+    width: 60%;
+    height: 100px;
+    text-align: center;
+  }
+  h4 {
+    padding-right: 70px;
+  }
+}
+@media (max-width: 768px) {
+  .form-social {
+    flex-direction: column;
+  }
+  .message-input {
+    width: 70%;
+    height: 100px;
+  }
+  .submit {
+    width: 70%;
+  }
+  .nav-items {
+    display: none;
+  }
+  .pad-right {
+    width: 200px;
+  }
+}
