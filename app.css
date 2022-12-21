@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url("https://brianwilkins.me/wp-content/uploads/2020/06/brian_duotone.png");
+  background-image: url("brian_pics_compressed.png");
   background-size: cover;
   background-position: 0 -80px;
   background-attachment: fixed;
@@ -439,7 +439,8 @@ h4 {
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 50px;
-  border: rgb(171, 22, 48);
+  background-color: white;
+  border-color: transparent;
 }
 .form-social {
   display: flex;
