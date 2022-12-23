@@ -427,7 +427,7 @@ h4 {
   background-color: rgb(171, 22, 48);
   padding: 10px;
   padding-left: 15px;
-  width: 30%;
+  width: 34%;
   border: rgb(171, 22, 48);
   margin-bottom: 30px;
   margin-right: 15px;
@@ -444,16 +444,21 @@ h4 {
   font-weight: 300;
   outline: none;
   color: white;
+  width: 77%;
+  height: 200px;
   padding: 10px;
 }
 ::placeholder {
   color: white;
 }
+form {
+  width: 700px;
+}
 .submit {
   margin-top: 25px;
   text-align: center;
   color: #000;
-  width: 575px;
+  width: 77%;
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 50px;
@@ -518,15 +523,18 @@ h4 {
     flex-direction: column;
   }
   .message-input {
-    width: 82%;
+    width: 90%;
     height: 150px;
   }
   .name-email {
-    width: 81%;
+    width: 90%;
     margin-right: 0;
   }
+  form {
+    width: unset;
+  }
   .submit {
-    width: 87%;
+    width: 90%;
     padding-top: 10px;
     padding-bottom: 10px;
   }
