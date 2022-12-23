@@ -8,7 +8,7 @@ body {
 }
 body:before {
   content: "";
-  display: block;
+  /* display: block; */
   position: fixed;
   left: 0;
   top: 0;
@@ -192,7 +192,7 @@ h4 {
 }
 .first {
   background-image: url("https://brianwilkins.me/wp-content/uploads/2022/02/project_loop_4_cover-650x650.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -231,55 +231,55 @@ h4 {
 
 .second {
   background-image: url("https://brianwilkins.me/wp-content/uploads/2021/05/project_staples_connect_cover-650x650.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
 }
 
 .third {
   background-image: url("https://brianwilkins.me/wp-content/uploads/2021/05/project_staples_connect_cover-650x650.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
 }
 
 .fourth {
   background-image: url("https://brianwilkins.me/wp-content/uploads/2019/11/project_black_friday_cover-650x650.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
 }
 
 .fifth {
   background-image: url("https://brianwilkins.me/wp-content/uploads/2019/06/project_studio_cover_2-650x650.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
 }
 
 .sixth {
   background-image: url("https://brianwilkins.me/wp-content/uploads/2019/06/project_epson_cover-650x650.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
 }
 .seventh {
   background-image: url("https://brianwilkins.me/wp-content/uploads/2019/06/project_monitors_cover-650x650.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
 }
 
 .eighth {
   background-image: url("https://brianwilkins.me/wp-content/uploads/2020/06/project_nxt_cover-650x650.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
 }
 
 .nineth {
   background-image: url("https://brianwilkins.me/wp-content/uploads/2019/06/project_perk_cover-650x650.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
 }
