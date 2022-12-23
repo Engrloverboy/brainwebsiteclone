@@ -305,7 +305,7 @@ h4 {
 .two {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 .one {
   margin: 20px;
@@ -403,7 +403,6 @@ h4 {
 .seventh-section {
   background-color: rgb(234, 30, 66);
   padding: 10% 10% 5% 10%;
-  height: 600px;
 }
 .last {
   padding-bottom: 20px;
@@ -510,12 +509,52 @@ h4 {
   color: white;
   font-size: 10px;
 }
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5em;
+  }
+  .form-social {
+    flex-direction: column;
+  }
+  .message-input {
+    width: 82%;
+    height: 150px;
+  }
+  .name-email {
+    width: 81%;
+    margin-right: 0;
+  }
+  .submit {
+    width: 87%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .nav-items {
+    display: none;
+  }
+  .pad-right {
+    width: 200px;
+  }
+  .one {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .form-social-white {
+    width: 100px;
+  }
+  .white-form {
+    width: 85%;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+}
+
 @media (max-width: 425px) {
-  body {
+  /* body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
+  } */
   .title {
     font-size: 20px;
     line-height: 30px;
@@ -603,41 +642,5 @@ h4 {
   }
   h4 {
     padding-right: 70px;
-  }
-}
-@media (max-width: 768px) {
-  .form-social {
-    flex-direction: column;
-  }
-  .message-input {
-    width: 82%;
-    height: 150px;
-  }
-  .name-email {
-    width: 81%;
-    margin-right: 0;
-  }
-  .submit {
-    width: 85%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .nav-items {
-    display: none;
-  }
-  .pad-right {
-    width: 200px;
-  }
-  .one {
-    margin: 0;
-    margin-bottom: 20px;
-  }
-  .form-social-white {
-    width: 100px;
-  }
-  .white-form {
-    width: 85%;
-    margin-top: 20px;
-    justify-content: space-between;
   }
 }
