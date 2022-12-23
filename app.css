@@ -501,7 +501,7 @@ h4 {
   .title {
     font-size: 20px;
     line-height: 30px;
-    padding-top: 50%;
+    padding-top: 50vh;
   }
   .message-input {
     width: 70%;
@@ -551,9 +551,9 @@ h4 {
   .eighth,
   .nineth {
     display: block;
-    width: 50%;
-    height: 170px;
+    width: 100%;
     margin: auto;
+    margin-bottom: 50px;
   }
   .two {
     flex-direction: column;
@@ -575,6 +575,7 @@ h4 {
   .second-box,
   .third-box {
     width: 80%;
+    height: fit-content;
   }
   .product-items {
     width: 60%;
@@ -601,5 +602,9 @@ h4 {
   }
   .pad-right {
     width: 200px;
+  }
+  .one {
+    margin: 0;
+    margin-bottom: 20px;
   }
 }
