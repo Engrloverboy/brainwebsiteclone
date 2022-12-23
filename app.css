@@ -1,10 +1,25 @@
-body {
+/* body {
   margin: 0;
   background-image: url("brian_pics_compressed.png");
   background-size: cover;
   background-position: 0 -80px;
   background-attachment: fixed;
   z-index: -10;
+} */
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("brian_pics_compressed.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .first-section {
   height: 100vh;
@@ -504,10 +519,10 @@ h4 {
     line-height: 30px;
     padding-top: 35vh;
   }
-  .message-input {
+  /* .message-input {
     width: 72%;
     height: 150px;
-  }
+  } */
   .social-media {
     width: 100%;
     flex-wrap: wrap;
@@ -519,9 +534,9 @@ h4 {
   .form-social {
     flex-direction: column;
   }
-  .submit {
+  /* .submit {
     width: 90%;
-  }
+  } */
   .all-box {
     flex-direction: column;
   }
@@ -593,11 +608,17 @@ h4 {
     flex-direction: column;
   }
   .message-input {
-    width: 70%;
-    height: 100px;
+    width: 82%;
+    height: 150px;
+  }
+  .name-email {
+    width: 81%;
+    margin-right: 0;
   }
   .submit {
-    width: 70%;
+    width: 85%;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .nav-items {
     display: none;
