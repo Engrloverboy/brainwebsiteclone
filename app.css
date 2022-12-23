@@ -612,7 +612,7 @@ h4 {
   .eighth,
   .nineth {
     display: block;
-    width: 100%;
+    width: 250px;
     margin: auto;
     margin-bottom: 50px;
   }
