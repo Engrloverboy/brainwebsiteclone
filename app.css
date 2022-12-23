@@ -1,11 +1,11 @@
-/* body {
+body {
   margin: 0;
-  background-image: url("brian_pics_compressed.png");
+  /* background-image: url("brian_pics_compressed.png");
   background-size: cover;
   background-position: 0 -80px;
   background-attachment: fixed;
-  z-index: -10;
-} */
+  z-index: -10; */
+}
 body:before {
   content: "";
   display: block;
@@ -21,6 +21,7 @@ body:before {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .first-section {
   height: 100vh;
   padding: 2% 10% 0 10%;
@@ -451,6 +452,7 @@ h4 {
 .submit {
   margin-top: 25px;
   text-align: center;
+  color: #000;
   width: 575px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -634,6 +636,7 @@ h4 {
     width: 100px;
   }
   .white-form {
+    width: 85%;
     margin-top: 20px;
     justify-content: space-between;
   }
